@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamable App</title>
+    <link rel="stylesheet" href="./teamable.css">
+    <link rel="stylesheet" href="./node_modules/Datepicker.js/dist/css/datepicker.material.css">
+    
+    <script src="./teamable.js"></script>
+    <!-- <script src="https://unpkg.com/validator@latest/validator.min.js"></script> -->
+    <script src="./node_modules/validator/validator.min.js"></script>
+    <script src="./node_modules/Datepicker.js/dist/datepicker.js"></script>
+</head>
+<body>
+    <div id="whole">
+        <h1>User Profile</h1>
+        <img src="https://i.pinimg.com/736x/ac/fa/2a/acfa2a28bb06acaffa1ac56fcdf2032d.jpg" alt="Profile photo" height="300px">    
+    
+            <span>Name: </span><b>Anna Smith</b>
+            <hr>
+            <span>Email: </span><b>annasmith@example.com</b>
+            <hr>
+            <span>Interests: </span><b>Coding</b>
+            <hr>
+            <span>Birthdate: </span> <b>dd/mm/yy</b>
+            <hr>
+            <button onclick="editprofile()">Edit Profile</button>
+    </div>
+    <div id="Edit">
+        <h1>User Profile</h1>
+        <img src="https://i.pinimg.com/736x/ac/fa/2a/acfa2a28bb06acaffa1ac56fcdf2032d.jpg" alt="Profile photo" height="300px">
+    
+            <span>Name: </span><input type="text" placeholder="Anna Smith" id="namefeild">
+            <hr>
+            <span>Email: </span><input type="text" placeholder="annasmith@example.com" id="emailfeild">
+            <hr>
+            <span>Interests: </span><input type="text" placeholder="Coding" id="interestfeild">
+            <hr>
+            <span>Birthday: </span><input type="text" id="birthday">
+            <hr>
+            <button onclick="updateprofile()">Update Profile</button>
+    </div>
+    <!-- <div>
+
+        <form action="" id="Edit-Form">
+            <label for="Name">Name: <b>Anna Smith</b> </label>
+            <hr>
+            <label for="Email">Email: <b>annasmith@example.com</b> </label>
+            <hr>
+            <label for="Interests">Interests: <b>Coding</b> </label>
+            <hr>
+            <button>Edit Profile</button>
+        </form>
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,50 @@
+hr{
+    width: 100%;
+    margin:20px 0px;
+}
+img{
+    display: block;
+    margin-bottom: 20px;
+    border: 2px solid;
+    padding: 1%;
+    border-radius: 15px;
+}
+/*#whole{
+    width: 60%;
+    margin: 0% 20%;
+    padding: 5%;
+
+}*/
+div{
+    width: 60%;
+    margin: 0% 20%;
+    padding: 5%;
+    border: 1px solid;
+}
+button{
+    height: 25px;
+    font-size: 15px;
+    border-radius: 4px;
+    
+}
+form{
+    display: none;
+}
+input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#Edit{
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.datepicker{
+    width: 0%;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+}
